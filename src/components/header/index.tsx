@@ -19,7 +19,10 @@ const Header: FC = () => {
                                 <Link to={"/vacancy"}>Vakansiyalar</Link>
                             </li>
                             <li className="text-[#e0e9ea] cursor-pointer">
-                                <Link to={"/news"}> Stajyorlar uchun</Link>
+                                <Link to={"/intern"}>Amaliyot</Link>
+                            </li>
+                            <li className="text-[#e0e9ea] cursor-pointer">
+                                <Link to={"/news"}> Yangiliklar</Link>
                             </li>
                             <li className="text-[#e0e9ea] cursor-pointer">
                                 <Link to={"/contact"}> Aloqa</Link>
