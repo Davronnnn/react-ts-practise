@@ -8,8 +8,6 @@ const HomePage: FC<ComponentChildrenProps> = () => {
         url: "/todos",
     });
 
-    
-
     return (
         <div>
             <h1 className="text-center">hello</h1>
