@@ -3,12 +3,18 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Poppins";
-    src: url("./assets/fonts/Poppins-Medium.ttf");
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Medium.ttf");
 }
 
 :root {
-    --font-family: "Poppins", sans-serif;
-    --second-family: "Source Sans Pro", sans-serif;
-    --third-family: "Open Sans", sans-serif;
-  }
+  --font-family: "Poppins", sans-serif;
+  --second-family: "Source Sans Pro", sans-serif;
+  --third-family: "Open Sans", sans-serif;
+}
+.swiper-button-prev:after {
+  content: url("./assets/icons/left.svg") !important;
+}
+.swiper-button-next:after {
+  content: url("./assets/icons/right.svg") !important;
+}
