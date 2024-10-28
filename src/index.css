@@ -41,3 +41,9 @@ body{
     border: 1.25px solid rgba(9, 80, 82, 0.5);
 
 }
+.swiper-button-prev:after {
+  content: url("./assets/icons/left.svg") !important;
+}
+.swiper-button-next:after {
+  content: url("./assets/icons/right.svg") !important;
+}
