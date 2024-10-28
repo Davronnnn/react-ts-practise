@@ -3,12 +3,37 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Poppins";
-    src: url("./assets/fonts/Poppins-Medium.ttf");
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Medium.ttf");
 }
 
 :root {
-    --font-family: "Poppins", sans-serif;
-    --second-family: "Source Sans Pro", sans-serif;
-    --third-family: "Open Sans", sans-serif;
-  }
+  --font-family: "Poppins", sans-serif;
+  --second-family: "Source Sans Pro", sans-serif;
+  --third-family: "Open Sans", sans-serif;
+}
+.hero_right {
+  background-image: url(./assets/icons/hero_bg_img.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.curriculumImg {
+  background-image: url(./assets/icons/sv_bg_img.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.customBorder {
+  border: 1.25px solid rgba(0, 0, 0, 0.17);
+}
+.jobInterview {
+  background-image: url(./assets/icons/sv_bg_img.svg);
+  background-repeat: no-repeat;
+
+  background-position: center;
+}
+.swiper_logo{
+    border: 1.25px solid rgba(9, 80, 82, 0.5);
+
+}
