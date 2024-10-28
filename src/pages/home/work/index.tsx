@@ -1,5 +1,8 @@
 import { FC } from "react"
 
+import iconImg from "../../../assets/icons/line_icon1.svg"
+import iconImg2 from "../../../assets/icons/line_icon2.svg"
+import iconImg3 from "../../../assets/icons/line_icon3.svg"
 
 const Work :FC= () => {
   return (
@@ -13,9 +16,11 @@ const Work :FC= () => {
       </div>
 
       <div>
-        <ul className="flex-wrap relative gap-y-[66px] mt-[74px] grid grid-cols-3 justify-items-center jobInterview
+        <ul className="flex-wrap relative  gap-y-[25px] mt-[74px] grid grid-cols-3 justify-items-center jobInterview
 ">
-
+<img src={iconImg} className="absolute top-12 " alt="" />
+<img src={iconImg2} className="absolute right-[-60px] top-12 " alt="" />
+<img src={iconImg3} className="absolute bottom-[310px]" alt="" />
           <li className="items-center flex flex-col  max-w-[350px] text-center">
 
             <h1 className="w-[102px] h-[102px] rounded-[50%] text-center  bg-primary text-[58px]  text-white">1</h1>
@@ -26,7 +31,7 @@ const Work :FC= () => {
               vitae quam integer semper aenean.</p>
           </li>
 
-          <li className="items-center flex flex-col  max-w-[350px] text-center">
+          <li className="items-center flex flex-col  max-w-[350px] text-center mt-12">
 
             <h1 className="w-[102px] h-[102px] rounded-[50%] text-center  bg-primary text-[58px]  text-white">2</h1>
 
@@ -56,7 +61,7 @@ const Work :FC= () => {
               vitae quam integer semper aenean.</p>
           </li>
 
-          <li className="items-center flex flex-col  max-w-[350px] text-center">
+          <li className="items-center flex flex-col  max-w-[350px] text-center mt-10">
 
             <h1 className="w-[102px] h-[102px] rounded-[50%] text-center  bg-primary text-[58px]  text-white">5</h1>
 

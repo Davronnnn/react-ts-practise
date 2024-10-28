@@ -20,7 +20,7 @@ const PortalPage: FC = () => {
         </li>
         <li className="flex items-center gap-[34px]">
           <div>
-            <img src={ItemImg_1} alt="img" />
+            <img src={ItemImg_1} className="w-[150px] h-[82px]" alt="img" />
           </div>
           <div className="max-w-[363px]">
             <h1 className="text-[26px] text-btnColor font-semibold">Business Consulting</h1>
@@ -30,7 +30,7 @@ const PortalPage: FC = () => {
         </li>
         <li className="flex items-center gap-[34px]">
           <div>
-            <img src={ItemImg_2} alt="img" />
+            <img src={ItemImg_2} className="w-[150px] h-[82px]" alt="img" />
           </div>
           <div className="max-w-[363px]">
             <h1 className="text-[26px] text-btnColor font-semibold">Market Analysis</h1>
@@ -40,7 +40,7 @@ const PortalPage: FC = () => {
         </li>
         <li className="flex items-center gap-[34px]">
           <div>
-            <img src={ItemImg_3} alt="img" />
+            <img src={ItemImg_3} className="w-[150px] h-[82px]" alt="img" />
           </div>
           <div className="max-w-[363px]">
             <h1 className="text-[26px] text-btnColor font-semibold">Financial Planning</h1>
@@ -50,7 +50,7 @@ const PortalPage: FC = () => {
         </li>
         <li className="flex items-center gap-[34px]">
           <div>
-            <img src={ItemImg_4} alt="img" />
+            <img src={ItemImg_4} className="w-[150px] h-[82px]" alt="img" />
           </div>
           <div className="max-w-[363px]">
             <h1 className="text-[26px] text-btnColor font-semibold">Market Analysis</h1>
@@ -60,7 +60,7 @@ const PortalPage: FC = () => {
         </li>
         <li className="flex items-center gap-[34px]">
           <div>
-            <img src={ItemImg_5} alt="img" />
+            <img src={ItemImg_5} className="w-[150px] h-[82px]" alt="img" />
           </div>
           <div className="max-w-[363px]">
             <h1 className="text-[26px] text-btnColor font-semibold">Trade & Funds</h1>

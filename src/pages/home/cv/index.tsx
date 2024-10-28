@@ -6,7 +6,7 @@ const CurriculumVitae: FC = () => {
     <div>
       <div className='pt-[180px]  flex gap-[125px] ' >
         <div className="curriculumImg  items-center">
-          <img className="mt-12 ml-10   " src={cvImg} alt="img" />
+          <img className=" ml-12  w-[950px] h-[500px]  " src={cvImg}  alt="img" />
         </div>
 
         <div>
