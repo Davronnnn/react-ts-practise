@@ -12,6 +12,10 @@
   --second-family: "Source Sans Pro", sans-serif;
   --third-family: "Open Sans", sans-serif;
 }
+
+body{
+  font-family: "Poppins";
+}
 .hero_right {
   background-image: url(./assets/icons/hero_bg_img.svg);
   background-repeat: no-repeat;
